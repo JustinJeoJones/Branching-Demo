@@ -4,3 +4,5 @@ foreach(string p in products)
 {
     Console.WriteLine(p);
 }
+Console.WriteLine("Please choose an item");
+string item = Console.ReadLine();
